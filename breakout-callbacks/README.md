@@ -1,36 +1,10 @@
 # BREAKOUT - Callbacks
 
 ### To Do
-- [ ] Functions are values
-- [ ] Callbacks and higher order functions
-- [ ] Recreate the `.filter` function
-- [ ] Questions?
+- [x] Functions are values
+- [x] Callbacks and higher order functions
+- [x] Recreate the `.filter` function
+- [x] Questions?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+filter => returning an array with some elements removed
+map => returns an array with the elements transformed in some way
