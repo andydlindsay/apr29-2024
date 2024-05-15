@@ -6,3 +6,4 @@
 * [BREAKOUT - Async Control Flow](/breakout-async/)
 * [W02D04 - Promises](/w02d04/)
 * [W03D02 - CRUD with Express](/w03d02/)
+* [W03D04 - Security & Real World HTTP Servers](/w03d04/)
