@@ -1,0 +1,69 @@
+@import "_variables.scss";
+
+h2 {
+  font-size: 25px;
+  color: $primary-color;
+}
+
+p {
+  text-decoration: $my-var;
+  border: $border;
+}
+
+.heading {
+  font-weight: bold;
+  border: 2px solid orange;
+}
+
+.my-other-heading {
+  @extend .heading;
+  color: red;
+}
+
+// <header>
+//   <div class="content">
+//     <p>Hello</p>
+//     <div>Good day</div>
+//   </div>
+// </header>
+
+header {
+  div.content {
+    p {
+      color: yellow;
+    }
+
+    div {
+      color: green;
+    }
+  }
+}
+
+@mixin footer {
+  height: 150px;
+  color: pink;
+}
+
+@mixin another {
+  text-decoration: underline;
+}
+
+.my-footer {
+  @include footer();
+  @include another();
+}
+
+@mixin box-maker ($num, $color) {
+  width: $num * 2;
+  height: $num;
+  color: $color;
+  text-align: center;
+}
+
+.small-box {
+  @include box-maker(25px, green);
+}
+
+.large-box {
+  @include box-maker(100px, yellow);
+}
