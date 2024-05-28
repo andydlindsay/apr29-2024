@@ -51,7 +51,7 @@
 ### Student Suggestion
 We created an ERD for a budgeting app:
 
-![Budgeting App]()
+![Budgeting App](https://raw.githubusercontent.com/andydlindsay/apr29-2024/main/w05d02/budgeting-app.drawio.png)
 
 ### Useful Links
 * [Database Normalization](https://en.wikipedia.org/wiki/Database_normalization)
