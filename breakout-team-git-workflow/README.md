@@ -7,6 +7,9 @@
 - [ ] Team Git Workflow
 - [ ] Other People's Branches
 
+new stuff
+
+make a merge conflict
 
 
 
