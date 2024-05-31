@@ -11,3 +11,4 @@
 * [W04D04 - Responsive Design and SASS](/w04d04/)
 * [W05D02 - Database Design](/w05d02/)
 * [BREAKOUT - Team Git Workflow](/breakout-team-git-workflow/)
+* [W05D05 - Mid-term Project Kickoff](/w05d05/)
