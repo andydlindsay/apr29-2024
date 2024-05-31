@@ -8,6 +8,16 @@ const port = process.env.PORT || 3000;
 
 app.use(morgan('dev'));
 
+// import the routers
+const productRouter = require('./routes/product-router');
+const blogpostRouter = require('./routes/blogpost-router');
+
+// /products
+// /api/admin/products
+// use the routers
+app.use('/api/admin/products', productRouter);
+app.use('/blogposts', blogpostRouter);
+
 app.listen(port, () => {
   console.log(`app listening on port ${port}`);
 });
