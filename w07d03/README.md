@@ -1,12 +1,12 @@
 # W07D03 - Immutable Update Patterns
 
 ### To Do
-- [ ] Stale State
-- [ ] Immutable Update Patterns with Arrays and Objects
-- [ ] Updating Complex State
-- [ ] `useReducer` Hook
+- [x] Stale State
+- [x] Immutable Update Patterns with Arrays and Objects
+- [x] Updating Complex State
+- [x] `useReducer` Hook
 
-
+oldState !== newState
 
 
 
