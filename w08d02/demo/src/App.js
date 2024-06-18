@@ -10,7 +10,9 @@ const App = () => {
   return (
     <div className="App">
       <h2>Class-Based React</h2>
-      <button onClick={() => setShowLifecycle(!showLifecycle)}>Toggle Lifecycle Component</button>
+      <button 
+        onClick={() => setShowLifecycle(!showLifecycle)}
+      >Toggle Lifecycle Component</button>
 
       {/* <ClassBased message="hello" colour="yellow" count={10} /> */}
       { showLifecycle && <Lifecycle /> }

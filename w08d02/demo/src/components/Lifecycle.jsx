@@ -18,16 +18,15 @@ class Lifecycle extends React.Component {
   }
 
   // fires once; when component is added to the DOM
-  // setting up timers and intervals, making AJAX requests, establishing socket connections
+  // useful for setting up timers/intervals, making AJAX requests, establishing socket connections
   // useEffect(() => {}, [])
   componentDidMount() {
     console.log('component was added to the DOM');
   }
 
   // fires every time state or props change
-  // listening for particular values to change
+  // useful for listening for particular values to change
   // useEffect(() => {}, [props.username])
-  // useEffect(() => {}, [state.counter])
   componentDidUpdate(prevState, prevProps) {
     if (prevProps.username !== this.props.username) {
       // username has changed
@@ -36,7 +35,7 @@ class Lifecycle extends React.Component {
     console.log('the component has updated');
   }
 
-  // fires one time; when the component is about to be removed from the DOM
+  // fires once; when the component is about to be removed from the DOM
   // useful for cleaning up; stopping intervals, severing socket connections
   // useEffect that returns a cleanup function
   componentWillUnmount() {
