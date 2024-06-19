@@ -17,3 +17,4 @@
 * [W07D04 - React Developer Workflow](/w07d04/)
 * [W08D01 - React Review](/w08d01/)
 * [W08D02 - Class-based Components](/w08d02/)
+* [W08D04 - End-to-End Testing with Cypress](/w08d04/)
