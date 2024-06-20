@@ -1,10 +1,10 @@
 # Project Planning
 
 ### To Do
-[x] Consider your goals with Finals  
-[x] Start with the Idea  
-[x] Explore Relevant APIs, Libraries, Packages and Tools  
-[x] Consider your Stack  
+* [x] Consider your goals with Finals  
+* [x] Start with the Idea  
+* [x] Explore Relevant APIs, Libraries, Packages and Tools  
+* [x] Consider your Stack  
 
 ### Consider your goals with Finals
 
