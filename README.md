@@ -19,3 +19,4 @@
 * [W08D02 - Class-based Components](/w08d02/)
 * [W08D04 - End-to-End Testing with Cypress](/w08d04/)
 * [BREAKOUT - Project Planning](/breakout-project-planning/)
+* [W08D05 - Intro to Ruby](/w08d05/)
