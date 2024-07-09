@@ -22,3 +22,4 @@
 * [W08D05 - Intro to Ruby](/w08d05/)
 * [BREAKOUT - AI Pair Programming](/breakout-ai-pair-programming/)
 * [W10D02 - Intro to TypeScript](/w10d02/)
+* [BREAKOUT - React Router](/breakout-react-router/)
